@@ -9,4 +9,4 @@ https://github.com/RimMalak/Challenge-1-Code-Refactor
 
 
 ### URL of the deployed application:
-https://rimmalak.github.io/Challenge-1-Code-Refactor/.
+https://rimmalak.github.io/Challenge-1-Code-Refactor/

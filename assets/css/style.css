@@ -26,18 +26,18 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {            /*nav replaced for div ul and li*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -76,7 +76,7 @@ p {
     margin-left: 20px;
 }
                                     /*grouped selectors "content" and "benefits" to keep the logic and cohesion of the code */
-.content-elements {                 /*renamed the class to more generic name to be used for all 3 articles*/
+.content-elements {                 /*renamed the class to more generic name "content-elements" to be used for all 3 articles*/
     margin-bottom: 20px;            /*to eliminate redundancy in the code*/
     padding: 50px;
     height: 300px;
@@ -103,7 +103,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-elements {                 /*renamed the class to a more generic name to be used for all div */
+.benefit-elements {                 /*renamed the class to a more generic name "benefit-elements" to be used for all div */
     margin-bottom: 32px;            /*to eliminate redundancy in the code*/
     color: #ffffff;
 }
